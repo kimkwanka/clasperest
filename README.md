@@ -1,2 +1,2 @@
-# book-trader
-Universal / isomorphic fullstack book trading app.
+# clasperest
+Universal / isomorphic fullstack Pinterest clone.
