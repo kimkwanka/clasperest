@@ -15,7 +15,6 @@ const Header = ({ user }) => (
             <li><a className="button button--primary-clear" href="/logout">Sign Out</a></li>
           </ul> :
           <ul>
-            <li><NavLink to="/dashboard" activeClassName="navItemActive">Dashboard</NavLink></li>
             <li><NavLink to="/recent" activeClassName="navItemActive">Recent Clasps</NavLink></li>
             <li><a className="button button--primary-clear" href="/login">Sign In</a></li>
           </ul>}

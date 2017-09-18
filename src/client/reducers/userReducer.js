@@ -1,5 +1,5 @@
 const user = (state = {
-  name: 'Jill',
+  name: '',
   authenticated: false,
 }, action) => {
   switch (action.type) {
