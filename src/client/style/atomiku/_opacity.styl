@@ -1,0 +1,11 @@
+createOpacities(steps)
+  for step in steps
+    .opacity-{step}
+      opacity: (step / 100) !important
+    .opacity-hover-{step}
+      &:hover
+        opacity: (step / 100) !important
+    .opacity-focus-{step}
+      &:focus
+        opacity: (step / 100) !important
+createOpacities($opacitySteps)
