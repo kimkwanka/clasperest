@@ -16,7 +16,7 @@ const Home = ({ user }) => (
         </p>
         {user.authenticated ?
           <Link className="button button--accent margin" to="/dashboard">Start Clasping</Link> :
-          <a className="button button--accent margin" href="/login">Sign in with Github</a>}
+          <a className="button button--accent margin" href="/login">Sign in with Twitter</a>}
       </div>
     </div>
   </div>
